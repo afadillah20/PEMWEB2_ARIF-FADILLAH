@@ -78,7 +78,7 @@
 
     $predikat;
 
-    if ($nilai >= 85){
+    if ($nilai >= 85 && $nilai <= 100){
         $predikat = "A";
     }elseif ($nilai >= 70) {
         $predikat = "B";
